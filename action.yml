@@ -1,0 +1,7 @@
+name: 'Google C++ Style Analysis'
+description: 'Enforce Google C++ coding style with NaiveSystems Analyze'
+author: 'Naive Systems'
+
+runs:
+  using: 'docker'
+  image: 'docker://ghcr.io/naivesystems/googlecpp-image:2023.3.0.0'
